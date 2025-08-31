@@ -1,6 +1,6 @@
 {
-  "commitMessage": "✏️ feat: Notes - {{files}}",
-  "autoCommitMessage": "✏️ feat: Notes - {{files}}",
+  "commitMessage": "up",
+  "autoCommitMessage": "up",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 1,
@@ -13,7 +13,7 @@
   "disablePopups": false,
   "showErrorNotices": true,
   "disablePopupsForNoChanges": false,
-  "listChangedFilesInMessageBody": false,
+  "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",
