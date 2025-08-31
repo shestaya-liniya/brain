@@ -1,3 +1,6 @@
 {
-  "cssTheme": "SynthWave"
+  "cssTheme": "SynthWave",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "baseFontSize": 14
 }
