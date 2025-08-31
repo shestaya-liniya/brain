@@ -1,6 +1,6 @@
 {
   "commitMessage": "\"✏️ feat: Notes - {{files}}\"",
-  "autoCommitMessage": "✏️ feat: Note - Update",
+  "autoCommitMessage": "\"✏️ feat: Notes - {{files}}\"",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 1,
