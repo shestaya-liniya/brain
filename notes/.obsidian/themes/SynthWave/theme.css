@@ -1,11 +1,11 @@
 .theme-dark,
 .theme-light {
-	--background-primary: #262335;
-	--background-primary-alt: #241b2f;
-	--background-secondary: #241b2f;
-	--background-secondary-alt: #262335;
+	--background-primary: #1b1b1f;
+	--background-primary-alt: #161618;
+	--background-secondary: #161618;
+	--background-secondary-alt: #161618;
 	--background-modifier-border: transparent;
-	--background-modifier-form-field: #372b3d;
+	--background-modifier-form-field: #1b1b1f;
 	--background-modifier-box-shadow: none;
 	--background-modifier-success: #7ee787;
 	--background-modifier-error: #8b0000;
@@ -36,9 +36,6 @@ select:focus {
 }
 .checkbox-container:focus-within {
 	outline-width: 1px;
-}
-.modal-container {
-	backdrop-filter: blur(20px);
 }
 ::-webkit-scrollbar {
 	width: 10px;

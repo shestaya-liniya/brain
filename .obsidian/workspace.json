@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "dee12ffcf53c79e2",
+    "id": "b9e28e4ec9614723",
     "type": "split",
     "children": [
       {
-        "id": "415aa2a52fb583e1",
+        "id": "5e3e0a88349bdb48",
         "type": "tabs",
         "children": [
           {
-            "id": "5f1dc3967464aa06",
+            "id": "5a6553d06a7df1fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hello.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "hello"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8dab1ef12f1cf8d3",
+    "id": "64c473ba83186a81",
     "type": "split",
     "children": [
       {
-        "id": "deb3717dcb76bd0f",
+        "id": "248aceca5e67f5d8",
         "type": "tabs",
         "children": [
           {
-            "id": "18a7225f53488001",
+            "id": "8a2b5e27c95f296b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "b5e3cdeb1db593fb",
+            "id": "ca193cf083209ae3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "099fb22705673770",
+            "id": "60f2efd6e125383e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 300
   },
   "right": {
-    "id": "b6003efbcf1ae24a",
+    "id": "f5344cebe1871dee",
     "type": "split",
     "children": [
       {
-        "id": "ed195901dd787065",
+        "id": "f508d08526c06267",
         "type": "tabs",
         "children": [
           {
-            "id": "610bb99e54b4a521",
+            "id": "9ec0869f78b7abae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hello.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for hello"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "d8aad1f75e0fe605",
+            "id": "6c338acc26e75685",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hello.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from hello"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "5fc604e557def837",
+            "id": "9604b52d7c8b7ce2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,38 +131,36 @@
             }
           },
           {
-            "id": "61ac3f98c4aaf2a1",
+            "id": "42a9cbbb8e17197d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "hello.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of hello"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "command-palette:Open command palette": false
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "61ac3f98c4aaf2a1",
-  "lastOpenFiles": [
-    "hello.md",
-    "index.md"
-  ]
+  "active": "5a6553d06a7df1fa",
+  "lastOpenFiles": []
 }

@@ -3,5 +3,12 @@
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "baseFontSize": 15,
-  "monospaceFontFamily": ""
+  "monospaceFontFamily": "",
+  "translucency": false,
+  "showViewHeader": false,
+  "showRibbon": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "hide-top-bar"
+  ]
 }
