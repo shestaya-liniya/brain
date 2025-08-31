@@ -1,0 +1,68 @@
+.VPHero {
+	@media (min-width: 960px) {
+		.image-src {
+			width: 400px !important;
+			height: 400px !important;
+		}
+	}
+
+	.image-src {
+		border-radius: 20px;
+
+		box-shadow: rgba(92, 115, 231, 0.4) 5px 5px,
+			rgba(92, 115, 231, 0.3) 10px 10px, rgba(92, 115, 231, 0.2) 15px 15px;
+		filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.2));
+	}
+
+	.heading {
+		margin-top: 32px;
+	}
+
+	.VPButton.brand {
+		background: var(--vp-c-brand-2) !important;
+	}
+}
+
+.hero-p {
+	color: var(--vp-c-text-1);
+	margin-bottom: 2rem !important;
+	font-weight: 500;
+
+	.accent {
+		color: var(--vp-c-brand-1);
+	}
+
+	.accent-underline {
+		text-decoration: underline;
+		text-decoration-color: var(--vp-c-brand-1);
+		text-underline-offset: 0.5rem;
+	}
+}
+
+@media (min-width: 1240px) {
+	.hero-p {
+		font-size: 18px;
+		max-width: 600px;
+		line-height: 32px !important;
+	}
+}
+
+@media (max-width: 1240px) {
+	.hero-p {
+		font-size: 18px;
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 960px) {
+	.hero-p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 360px) {
+	.hero-p {
+		padding: 0 20px;
+		font-size: 16px;
+	}
+}
