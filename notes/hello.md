@@ -1,5 +1,5 @@
 Hello motherfucker
 
 ``` ts
-console.log('hello from obsidian aaa')
+console.log('hello from obsidian aaa')sdcsd 
 ```
