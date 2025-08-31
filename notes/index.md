@@ -14,7 +14,7 @@ hero:
       text: 'Why shestaya_liniya ?'
       link: /hello
   image:
-    src: 'public/avatar.jpg'
+    src: 'assets/avatar.jpg'
     alt: Avatar
 ---
 
