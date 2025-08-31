@@ -1,6 +1,6 @@
 {
-  "commitMessage": "up",
-  "autoCommitMessage": "up",
+  "commitMessage": "up - {{files}}",
+  "autoCommitMessage": "up - {{files}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 1,
