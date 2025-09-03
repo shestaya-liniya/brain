@@ -66,3 +66,10 @@
 		font-size: 16px;
 	}
 }
+
+.tag {
+	font-size: 12px;
+	border-radius: 1rem;
+	padding: 0.25rem 0.5rem;
+	background-color: var(--vp-c-brand-3);
+}
