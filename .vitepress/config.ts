@@ -6,7 +6,7 @@ const ROOT = 'notes'
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig = {
 	srcDir: ROOT,
-
+	base: '/brain/', // Github repo
 	title: "Andrei's brain",
 	description: 'Andrei Silin personal website',
 	head: [['link', { rel: 'icon', href: '/avatar.jpg' }]],
