@@ -6,7 +6,6 @@ const ROOT = 'notes'
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig = {
 	srcDir: ROOT,
-	base: '/brain/', // Github repo
 
 	title: "Andrei's brain",
 	description: 'Andrei Silin personal website',
@@ -16,7 +15,7 @@ const vitePressConfig: UserConfig = {
 	themeConfig: {
 		siteTitle: '@shestaya_liniya',
 		socialLinks: [
-			{ icon: 'github', link: 'https://github.com/shestaya_liniya' },
+			{ icon: 'github', link: 'https://github.com/shestaya-liniya' },
 			{ icon: 'telegram', link: 'https://t.me/shestaya_liniya' },
 		],
 		search: {
