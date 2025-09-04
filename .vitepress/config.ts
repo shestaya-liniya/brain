@@ -50,7 +50,7 @@ export default defineConfig(
 		useTitleFromFileHeading: true,
 		// useTitleFromFrontmatter: true,
 		// useFolderLinkFromIndexFile: false,
-		// useFolderTitleFromIndexFile: false,
+		useFolderTitleFromIndexFile: true,
 		// frontmatterTitleFieldName: 'title',
 		//
 		// ============ [ GETTING MENU LINK ] ============
