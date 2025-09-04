@@ -7,9 +7,12 @@ const ROOT = 'notes'
 const vitePressConfig: UserConfig = {
 	srcDir: ROOT,
 	base: '/brain/', // Github repo
+
 	title: "Andrei's brain",
 	description: 'Andrei Silin personal website',
 	head: [['link', { rel: 'icon', href: 'lamp.svg' }]],
+	cleanUrls: true,
+
 	themeConfig: {
 		siteTitle: '@shestaya_liniya',
 		socialLinks: [
@@ -44,7 +47,7 @@ export default defineConfig(
 		// rootGroupCollapsed: false,
 		//
 		// ============ [ GETTING MENU TITLE ] ============
-		// useTitleFromFileHeading: true,
+		useTitleFromFileHeading: true,
 		// useTitleFromFrontmatter: true,
 		// useFolderLinkFromIndexFile: false,
 		// useFolderTitleFromIndexFile: false,
