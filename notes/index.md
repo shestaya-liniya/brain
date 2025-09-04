@@ -12,7 +12,7 @@ hero:
       link: /hello
     - theme: alt
       text: 'Why shestaya_liniya ?'
-      link: /hello
+      link: /why-shestaya-liniya
   image:
     src: '/avatar.jpg'
     alt: Avatar

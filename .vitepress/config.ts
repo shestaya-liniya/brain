@@ -1,4 +1,4 @@
-import { DefaultTheme, defineConfig, UserConfig } from 'vitepress'
+import { defineConfig, UserConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
 
 const ROOT = 'notes'
@@ -9,7 +9,7 @@ const vitePressConfig: UserConfig = {
 	base: '/brain/', // Github repo
 	title: "Andrei's brain",
 	description: 'Andrei Silin personal website',
-	head: [['link', { rel: 'icon', href: '/avatar.jpg' }]],
+	head: [['link', { rel: 'icon', href: 'lamp.svg' }]],
 	themeConfig: {
 		siteTitle: '@shestaya_liniya',
 		socialLinks: [
