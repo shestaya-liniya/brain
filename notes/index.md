@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Knowledge
-      link: /hello
+      link: /learning-list
     - theme: alt
       text: 'Why shestaya_liniya ?'
-      link: /why-shestaya-liniya
+      link: /about-me/why-shestaya-liniya
   image:
     src: '/avatar.jpg'
     alt: Avatar
@@ -22,5 +22,5 @@ hero:
   I have created this <a href="https://vitepress.dev/">space</a> for tracking and saving my knowledge in different fields, especially about dev. If you don't see something in my notes - <span class="accent">probably I don't know that.</span>
 </p>
 <p class="hero-p">
-  This space is open to everyone. So you can <a href="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyNGl0a3NvZWs5OW9hYzJzNDJ5OGZ5a21tN25vcHZ3eXMwZTl5eTdrYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dwmNhd5H7YAz6/source.gif">surf</a> freely here, and if you’d like to contribute, you’re welcome to click “Edit on GitHub” on any page.
+  This space is open to everyone. So you can <a href="/surf.gif">surf</a> freely here, and if you’d like to contribute, you’re welcome to click “Edit on GitHub” on any page.
 </p>

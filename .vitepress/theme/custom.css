@@ -67,9 +67,17 @@
 	}
 }
 
-.tag {
+.accent {
 	color: var(--vp-c-brand-1);
-	font-size: 14px;
 	font-weight: 600;
-	border-radius: 1rem;
+}
+
+/* Styles for @mdit/plugin-tasklist plugin*/
+.custom-task-list-container {
+	list-style: none !important;
+	padding-left: 0 !important;
+}
+
+.custom-task-checkbox {
+	margin: 0 4px 0 0 !important;
 }

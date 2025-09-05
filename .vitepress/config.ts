@@ -1,5 +1,6 @@
 import { defineConfig, UserConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
+import { tasklist } from '@mdit/plugin-tasklist'
 
 const ROOT = 'notes'
 
@@ -21,9 +22,22 @@ const vitePressConfig: UserConfig = {
 		search: {
 			provider: 'local',
 		},
+		editLink: {
+			pattern: 'https://github.com/shestaya-liniya/brain/edit/main/:path',
+		},
 	},
 	lastUpdated: true,
+
+	markdown: {
+		config: md => {
+			md.use(tasklist, {
+				containerClass: 'custom-task-list-container',
+				checkboxClass: 'custom-task-checkbox',
+			})
+		},
+	},
 }
+
 export default defineConfig(
 	withSidebar(vitePressConfig, {
 		/*
@@ -76,7 +90,7 @@ export default defineConfig(
 		//
 		// ============ [ SORTING ] ============
 		// manualSortFileNameByPriority: ['first.md', 'second', 'third.md'],
-		// sortFolderTo: null,
+		sortFolderTo: 'bottom',
 		// sortMenusByName: false,
 		// sortMenusByFileDatePrefix: false,
 		// sortMenusByFrontmatterOrder: false,
