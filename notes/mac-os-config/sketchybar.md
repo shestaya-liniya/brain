@@ -34,7 +34,7 @@ exec-on-workspace-change = [
 
 ![](/sketchybar-right.png)
 
-Most useful info for me to keep simple
+Most useful info for me to keep it simple
 
 ## Full layout
 
