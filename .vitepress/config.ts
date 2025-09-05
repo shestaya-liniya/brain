@@ -10,7 +10,7 @@ const vitePressConfig: UserConfig = {
 
 	title: "Andrei's brain",
 	description: 'Andrei Silin personal website',
-	head: [['link', { rel: 'icon', href: 'lamp.svg' }]],
+	head: [['link', { rel: 'icon', href: '/lamp.svg' }]],
 	cleanUrls: true,
 
 	themeConfig: {
