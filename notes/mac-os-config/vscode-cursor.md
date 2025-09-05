@@ -14,6 +14,8 @@ The effect is done by also setting a wallpaper, for me it's that one (one of the
 
 ## UI extensions
 
+Icons: Seti + Folder `sabaken.seti-minimal-folder`
+
 ## Useful settings
 
 Here's the list of cool settings I find with a little description.
