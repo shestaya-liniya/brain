@@ -68,15 +68,56 @@ def draw_regular_polygon(angles, radius):
 def find_rectangle_side_len(angles, radius):
     return 2 * radius * math.sin(math.radians(180 / angles))
 
-for x in range(3,5,1):
-    draw_regular_polygon(x, initial_radius)
-    initial_radius += 20
-    turtle.forward(10)
-    # turtle.penup()
-    # turtle.forward(20)
-    # turtle.pendown()
-    # turtle.left(circle_angle / x)
-    # turtle.forward(find_rectangle_side_len(x, initial_radius))
+def draw_circle(radius):
+    perimeter = 2*math.pi*radius
+    stroke = perimeter / 36
+
+    print(perimeter)
+
+    turtle.left(90)
+
+    for _ in range(36):
+        turtle.forward(stroke)
+        turtle.left(10)
+
+# for x in range(3,5,1):
+#     draw_regular_polygon(x, initial_radius)
+#     initial_radius += 20
+#     turtle.forward(10)
+#     # turtle.penup()
+#     # turtle.forward(20)
+#     # turtle.pendown()
+#     # turtle.left(circle_angle / x)
+#     # turtle.forward(find_rectangle_side_len(x, initial_radius))
+
+def calc_interior_angle(num_angles):
+    return 180 * (num_angles - 2) / num_angles
+
+def draw_regular_polygon(num_angles, radius):
+    side_len = find_rectangle_side_len(num_angles, radius)
+    turn_angle = 360 / num_angles
+
+    for _ in range(num_angles):
+        turtle.forward(side_len)
+        turtle.left(turn_angle)
+
+
+def draw_nested_circles(initial_radius, margin, number):
+    x = 0
+    radius = initial_radius
+
+    while x < number:
+        draw_circle(radius)
+        turtle.penup()
+        turtle.right(90)
+        turtle.forward(margin)
+        turtle.pendown()
+        radius += margin
+
+        x += 1
+
+draw_regular_polygon(3, 50)
+draw_regular_polygon(5, 50)
 
 turtle.done()
 
