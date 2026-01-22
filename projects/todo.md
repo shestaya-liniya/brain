@@ -1,0 +1,3 @@
+unfinished exercices:
+
+ideas:
