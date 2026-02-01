@@ -25,25 +25,35 @@ def sort_array(arr):
         
     return sorted
 
-def shift_arr_left(arr):
-    arr_len = len(arr)
-    last_element = arr[arr_len - 1]
-
-    for k in range(arr_len - 1):
-        arr[k], arr[k+1] = arr[k+1], arr[k]
-
-    arr[0] = last_element
+def shift_arr_right(arr):
+    for i in range(len(arr) - 1, 0, -1):
+        arr[i - 1], arr[i] = arr[i], arr[i - 1]
 
     return arr
 
-def shift_arr_right(arr):
-    arr_len = len(arr)
-    last_element = arr[arr_len - 1]
+def shift_arr_left(arr):
+    for i in range(len(arr) - 1):
+        arr[i + 1], arr[i] = arr[i], arr[i+1]
 
-    for k in range(arr_len - 2, 1, -1):
-        arr[k - 1], arr[k] = arr[k], arr[k - 1]
+    return arr
 
-    arr[0] = last_element
+def shift_arr_left_alt(arr):
+    first_el = arr[0]
+
+    for i in range(len(arr) - 1):
+        arr[i] = arr[i + 1]
+
+    arr[len(arr) - 1] = first_el
+
+    return arr
+
+def shift_arr_right_alt(arr):
+    last_el = arr[len(arr) - 1]
+
+    for i in range(len(arr) - 2, -1, -1):
+        arr[i + 1] = arr[i]
+
+    arr[0] = last_el
 
     return arr
 
@@ -53,5 +63,8 @@ def sort_array_v2(arr):
     """
 
 print(arr)
-print(shift_arr_left(arr))
-print(shift_arr_right(arr))
+print(shift_arr_left(list(arr)))
+print(shift_arr_left_alt(list(arr)))
+print(shift_arr_right(list(arr)))
+print(shift_arr_right_alt(list(arr)))
+
